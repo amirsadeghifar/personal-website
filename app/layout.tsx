@@ -15,11 +15,6 @@ export const metadata: Metadata = {
   title: "Amir Sadeghifar",
   description: "Software engineer",
   keywords: "software engineer, web developer",
-  openGraph: {
-    images: {
-      url: "/opengraph-image.png",
-    },
-  },
 };
 
 export default function RootLayout({
@@ -44,11 +39,11 @@ export default function RootLayout({
       </Script>
       <head>
         <link rel="icon" type="image/png" href="/as-logo.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="/as-logo.png" />
+        <link rel="icon" type="image/png" href="/as-logo.png" />
         <link rel="shortcut icon" href="/as-logo.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/as-logo.png" />
         <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/as-logo.png" />
       </head>
       <body
         className={`antialiased max-w-[1440px] mx-auto px-[24px] md:px-[72px] lg:px-[144px] py-[36px] overflow-x-hidden`}
