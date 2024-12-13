@@ -13,8 +13,8 @@ export const Hero = () => {
         {/* <span className="text-[color:#F15B22] font-medium">UTSA</span> Graduate,
         2+ years experience developing websites that solve real problems,
         currently building */}
-        I have a passion for continuously learning and improving my skills.
-        Recently built
+        Full-stack software engineer dedicated to continuous learning and
+        tackling complex challenges. Recently built
         <Link
           href="https://splinter-app.github.io"
           target="_blank"
