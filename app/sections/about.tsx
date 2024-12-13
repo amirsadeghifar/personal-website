@@ -34,18 +34,13 @@ export const About = () => {
         </div>
         <div className="max-w-[565px] space-y-[13px] leading-relaxed">
           <p>
-            I’m a software engineer with a background in biomedical engineering
-            and a passion for continuously learning and improving my skills.
+            I’m a software engineer with a background in biomedical engineering.
           </p>
           <p>
             As a full-stack engineer, I have experience designing scalable and
             efficient systems, ranging from AWS-based infrastructure to
             intuitive APIs built with Python and Node.js, and visually appealing
             front-ends using frameworks like React.
-          </p>
-          <p>
-            Recently, I developed Splinter, an open-source tool that transforms
-            unstructured data into vectorized formats for AI workflows.
           </p>
         </div>
       </div>

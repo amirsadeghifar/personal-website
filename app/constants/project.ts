@@ -30,7 +30,7 @@ export const project_card: ProjectCardType[] = [
     description:
       "An open-source tool that transforms unstructured data into vectorized formats for AI workflows.",
     image_url: "/splinter-home.png",
-    skills: ["Python", "Typescript", "AWS", "Tailwind"],
+    skills: ["Python", "Typescript", "AWS", "Docker", "PostgreSQL", "React"],
     slug: "splinter",
     live: "https://splinter-app.github.io",
     users: 80,

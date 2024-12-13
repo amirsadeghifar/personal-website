@@ -20,9 +20,13 @@ export const Socials = () => {
       >
         <Github />
       </Link>
-      {/* <Link target='_blank' href='https://x.com/jtrevdev' className='hover:rotate-3'>
-        <Twitter />
-      </Link > */}
+      <Link
+        target="_blank"
+        href="Amir-Sadeghifar-Resume.pdf"
+        className="hover:rotate-3"
+      >
+        Resume
+      </Link>
     </div>
   );
 };
