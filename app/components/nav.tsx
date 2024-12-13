@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const ThemeSwitcher = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const strokeColor = theme === "dark" ? "white" : "black";
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "light"; // Check if theme is stored
+    const savedTheme = localStorage.getItem("theme") || "dark"; // Check if theme is stored
     document.documentElement.setAttribute("data-theme", savedTheme);
     setTheme(savedTheme);
   }, []);

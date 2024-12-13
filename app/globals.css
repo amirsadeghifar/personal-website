@@ -3,64 +3,30 @@
 @tailwind utilities;
 
 * {
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Colors Default Light Theme */
 :root {
-  --green: #7ac142;
-  --white: #fff;
-
-  /* Misc */
-  --curve: cubic-bezier(0.650, 0.000, 0.450, 1.000);
-
-  --background-color: white;
-  --text-color: #2B3440;
-  --not-important: #878C98;
-  --container-color: #F8F8FA;
-  --skill-card: #E5E7EB;
-  --cta: #4902FF;
-  --skill-image: #E5E7EB;
-  --text-less-important: #404853;
-
-  /* sugar-high code highlights */
-  --sh-class: #2d5e9d;
-  --sh-identifier: #354150;
-  --sh-sign: #8996a3;
-  --sh-property: #0550ae;
-  --sh-entity: #249a97;
-  --sh-jsxliterals: #6266d1;
-  --sh-string: #00a99a;
-  --sh-keyword: #f47067;
-  --sh-comment: #a19595;
-
-  /* blog */
-  --pad-x: 18px;
-  --pad-y: 24px;
-}
-
-/* Dark Theme */
-
-[data-theme='dark'] {
   color-scheme: dark;
 
   --green: #fff;
-  --white: #2B3440;
-
+  --white: #2b3440;
 
   --background-color: #121212;
   /* Dark black background */
-  --text-color: #E2E8F0;
+  --text-color: #e2e8f0;
   /* Light grayish white for good contrast */
-  --not-important: #A0AEC0;
+  --not-important: #a0aec0;
   /* Muted light gray for less emphasis */
-  --container-color: #1F1F1F;
+  --container-color: #1f1f1f;
   /* A slightly lighter black/gray for containers */
-  --skill-card: #2A2A2A;
+  --skill-card: #2a2a2a;
   /* Darker gray/black for skill cards */
-  --cta: #1D72B8;
+  --cta: #1d72b8;
   /* A blue accent for CTA, but still dark enough */
-  --skill-image: #2A2A2A;
+  --skill-image: #2a2a2a;
   --text-less-important: #cbd0d8;
 
   /* sugar-high code highlights - dark mode */
@@ -82,7 +48,40 @@
   /* Vibrant red-orange for keywords */
   --sh-comment: #7c858f;
   /* Muted gray for comments */
+}
 
+/* Dark Theme */
+
+[data-theme="light"] {
+  --green: #7ac142;
+  --white: #fff;
+
+  /* Misc */
+  --curve: cubic-bezier(0.65, 0, 0.45, 1);
+
+  --background-color: white;
+  --text-color: #2b3440;
+  --not-important: #878c98;
+  --container-color: #f8f8fa;
+  --skill-card: #e5e7eb;
+  --cta: #4902ff;
+  --skill-image: #e5e7eb;
+  --text-less-important: #404853;
+
+  /* sugar-high code highlights */
+  --sh-class: #2d5e9d;
+  --sh-identifier: #354150;
+  --sh-sign: #8996a3;
+  --sh-property: #0550ae;
+  --sh-entity: #249a97;
+  --sh-jsxliterals: #6266d1;
+  --sh-string: #00a99a;
+  --sh-keyword: #f47067;
+  --sh-comment: #a19595;
+
+  /* blog */
+  --pad-x: 18px;
+  --pad-y: 24px;
 }
 
 .prose .anchor {
@@ -104,7 +103,7 @@
   content: "#";
 }
 
-.prose *:hover>.anchor {
+.prose *:hover > .anchor {
   @apply visible;
 }
 
@@ -168,7 +167,6 @@ p,
 
 .not-important {
   color: var(--not-important);
-
 }
 
 .skill-card {
@@ -206,13 +204,12 @@ h2.title {
 div.project-card {
   background-color: var(--container-color);
   border-bottom-width: 2px;
-  border-bottom-color: var(--container-color)
+  border-bottom-color: var(--container-color);
 }
 
 h2.description {
   font-size: 19px;
   color: var(--text-color);
-
 }
 
 .checkmark {
@@ -224,7 +221,8 @@ h2.description {
   stroke: var(--white);
   stroke-miterlimit: 10;
   box-shadow: inset 0px 0px 0px var(--green);
-  animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
 }
 
 .checkmark__circle {
@@ -251,7 +249,6 @@ h2.description {
 }
 
 @keyframes scale {
-
   0%,
   100% {
     transform: none;
