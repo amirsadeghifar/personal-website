@@ -30,17 +30,19 @@ export const About = () => {
             </svg>
             <h3 className="text-[18px] font-light">Hello Again</h3>
           </span>
-          <h2 className="text-[23px] font-bold">I'm Amir Sadeghifar</h2>
+          <h2 className="text-[23px] font-bold">I'm Amir</h2>
         </div>
         <div className="max-w-[565px] space-y-[13px] leading-relaxed">
           <p>
-            I’m a software engineer with a background in biomedical engineering.
+            I’m a full-stack software engineer with a background in biomedical
+            engineering, skilled in designing scalable systems that solve
+            complex problems with practical solutions.
           </p>
           <p>
-            As a full-stack engineer, I have experience designing scalable and
-            efficient systems, ranging from AWS-based infrastructure to
-            intuitive APIs built with Python and Node.js, and visually appealing
-            front-ends using frameworks like React.
+            Outside of tech, I’m passionate about staying active and exploring
+            new experiences. I enjoy watching and playing sports, embarking on
+            outdoor adventures, and embracing opportunities to try something new
+            and exciting.
           </p>
         </div>
       </div>
