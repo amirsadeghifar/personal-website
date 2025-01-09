@@ -35,14 +35,13 @@ export const About = () => {
         <div className="max-w-[565px] space-y-[13px] leading-relaxed">
           <p>
             I’m a full-stack software engineer with a background in biomedical
-            engineering, skilled in designing scalable systems that solve
-            complex problems with practical solutions.
+            engineering. I love creating solutions that have a real impact and
+            make a positive difference in people’s lives.
           </p>
           <p>
-            Outside of tech, I’m passionate about staying active and exploring
-            new experiences. I enjoy watching and playing sports, embarking on
-            outdoor adventures, and embracing opportunities to try something new
-            and exciting.
+            Outside of tech, I’m passionate about staying active and trying new
+            things. I enjoy playing and watching sports, exploring the outdoors,
+            and embracing new adventures whenever I can.
           </p>
         </div>
       </div>

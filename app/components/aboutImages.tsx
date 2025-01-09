@@ -53,26 +53,26 @@ export const AboutImages = () => {
     <div className="flex justify-center items-center flex-[1] relative sm:w-[565px] h-full">
       <motion.img
         whileInView={animationProps}
-        src="/cliff.png"
+        src="/mountain.png"
         className="h-fit absolute"
-        width={140}
-        height={140}
-        alt="jonathan trevino's headshot"
+        width={160}
+        height={160}
+        alt="amir's 5k"
       />
       <motion.img
         src="/amir_headshot.png"
         className="h-fit absolute z-[2]"
         width={166}
         height={166}
-        alt="jonathan trevino's headshot"
+        alt="amir's headshot"
       />
       <motion.img
         whileInView={animationPropsTwo}
-        src="/sunset.png"
+        src="/5k-race.png"
         className="h-fit absolute z-[1]"
-        width={140}
-        height={140}
-        alt="jonathan trevino's headshot"
+        width={160}
+        height={160}
+        alt="mountain"
       />
     </div>
   );
