@@ -57,7 +57,7 @@ export const AboutImages = () => {
         className="h-fit absolute"
         width={160}
         height={160}
-        alt="amir's 5k"
+        alt="amir's mountain picture"
       />
       <motion.img
         src="/amir_headshot.png"
@@ -72,7 +72,7 @@ export const AboutImages = () => {
         className="h-fit absolute z-[1]"
         width={160}
         height={160}
-        alt="mountain"
+        alt="amir's 5k"
       />
     </div>
   );
