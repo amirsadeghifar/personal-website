@@ -7,6 +7,7 @@ export type ProjectCardType = {
   github?: string;
   live?: string;
   users?: number;
+  casestudy?: boolean;
 };
 
 export type ProjectType = {
@@ -30,9 +31,29 @@ export const project_card: ProjectCardType[] = [
     description:
       "An open-source tool that transforms unstructured data into vectorized formats for AI workflows.",
     image_url: "/splinter-home.png",
-    skills: ["Python", "Typescript", "AWS", "Docker", "PostgreSQL", "React"],
+    skills: [
+      "Python",
+      "Typescript",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "React",
+      "LLMs",
+    ],
     slug: "splinter",
     live: "https://splinter-app.github.io",
+    casestudy: true,
+    users: 80,
+  },
+  {
+    title: "RequestBin",
+    description:
+      "An open-source tool for receiving and debugging webhooks in real-time",
+    image_url: "/requestDock.png",
+    skills: ["Javascript", "Express", "MongoDB", "PostgreSQL", "React"],
+    slug: "requestDock",
+    live: "https://cheap-tests.com",
+    casestudy: false,
     users: 80,
   },
 ];
@@ -45,8 +66,10 @@ export const skills: { image_url: string; title: string }[] = [
   { image_url: "/aws.svg", title: "Aws" },
   { image_url: "/express.svg", title: "Express" },
   { image_url: "/node.svg", title: "Node" },
+  { image_url: "/postgres.svg", title: "PostrgreSQL" },
   { image_url: "/mongo.svg", title: "Mongo" },
-  { image_url: "/tailwind.svg", title: "Tailwind" },
+
+  // { image_url: "/tailwind.svg", title: "Tailwind" },
   // { image_url: "/next.svg", title: "Next" },
   // { image_url: "/firebase.svg", title: "Firebase" },
   // { image_url: "/mysql.svg", title: "MySql" },

@@ -19,6 +19,7 @@ export const ProjectCard = ({
   live,
   users,
   slug,
+  casestudy,
 }: ProjectCardType) => {
   const [isClicked, setIsClicked] = useState(false);
   const ref = useRef(null);
@@ -86,18 +87,20 @@ export const ProjectCard = ({
               </div>
             ))}
         </div>
-        <Link
-          className="flex gap-2 self-end group"
-          href="https://splinter-app.github.io/case-study"
-          target="_blank"
-        >
-          Read the Case Study
-          <MoveRight className="group-hover:translate-x-1 transition-all" />
-        </Link>
+        {casestudy && (
+          <Link
+            className="flex gap-2 self-end group"
+            href="https://splinter-app.github.io/case-study"
+            target="_blank"
+          >
+            Read the Case Study
+            <MoveRight className="group-hover:translate-x-1 transition-all" />
+          </Link>
+        )}
       </div>
       <div className="justify-center items-end md:flex hidden">
         <div className="lg:relative lg:-bottom-24 absolute -bottom-80 transition-all">
-          <a href="https://splinter-app.github.io" target="_blank">
+          <a href={live} target="_blank">
             <motion.img
               style={{ y }}
               className="px-4"
