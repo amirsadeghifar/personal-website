@@ -5,7 +5,7 @@ import { project_card } from "../constants/project";
 export const Project = () => {
   return (
     <section className="space-y-[10px]">
-      <h2 className="title">Projects</h2>
+      <h2 className="title">Featured Project</h2>
       <div className="grid grid-cols-1 :grid-cols-2 gap-5">
         {project_card.map((details) => (
           <ProjectCard
